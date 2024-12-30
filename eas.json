@@ -11,13 +11,6 @@
       "distribution": "internal",
       "channel": "development"
     },
-    "beta": {
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
-      },
-      "channel": "beta"
-    },
     "production": {
       "android": {
         "buildType": "apk",
