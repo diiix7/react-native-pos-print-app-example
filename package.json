@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@diiix7/react-native-pos-print": "^0.1.0",
     "expo": "~52.0.23",
     "expo-status-bar": "~2.0.0",
+    "expo-updates": "~0.26.10",
     "react": "18.3.1",
     "react-native": "0.76.5"
   },
